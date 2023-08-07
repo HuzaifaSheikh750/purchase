@@ -3,7 +3,7 @@ import Image from 'next/image'
 const   Partners = () => {
   const partnersData = [
     {
-      imgSrc: "/images/purchase/icon_2.png",
+      imgSrc: "/images/purchase/crayon.png",
       imgAlt: "logo",
       divClass: "img-box bx-a",
       link: "#",
@@ -12,7 +12,7 @@ const   Partners = () => {
       dataAosDelay: "100",
     },
     {
-      imgSrc: "/images/purchase/icon_3.png",
+      imgSrc: "/images/purchase/velosia.png",
       imgAlt: "logo",
       divClass: "img-box bx-b",
       link: "#",
@@ -21,7 +21,7 @@ const   Partners = () => {
       dataAosDelay: "200",
     },
     {
-      imgSrc: "/images/purchase/icon_1.png",
+      imgSrc: "/images/purchase/microsoft.png",
       imgAlt: "logo",
       divClass: "img-box bx-c",
       link: "#",
@@ -30,7 +30,7 @@ const   Partners = () => {
       dataAosDelay: "300",
     },
     {
-      imgSrc: "/images/purchase/icon_4.png",
+      imgSrc: "/images/purchase/solgari.png",
       imgAlt: "logo",
       divClass: "img-box bx-d",
       link: "#",
@@ -39,7 +39,7 @@ const   Partners = () => {
       dataAosDelay: "300",
     },
     {
-      imgSrc: "/images/purchase/icon_5.png",
+      imgSrc: "/images/purchase/eemc.png",
       imgAlt: "logo",
       divClass: "img-box bx-e",
       link: "#",
@@ -97,7 +97,7 @@ const   Partners = () => {
         >
           <div style={{width:"300px", display:"flex",justifyContent:"center",alignItems:"center"}} >
             <a href="#">
-              <Image src={partner.imgSrc} alt="logo" className="lazy-img" width={130} height={130} style={{marginLeft:"50px"}} />
+              <img src={partner.imgSrc} alt="logo" className="lazy-img" style={{marginLeft:"50px"}} />
             </a>
           </div>
           {/* /.img-box */}

@@ -28,13 +28,13 @@ const AppBanner = () => {
     <div className="row align-items-center" style={{ width: "100%" }}>
       <div className="col-lg-5 col-md-12 col-sm-12 wow fadeInRight">
         <div className="illustration-holder position-relative pt-50 pb-50 pe-md-5 lg-mt-80" style={{width:"740px"}}>
-          <Image
-            src="/images/purchase/image_3.png"
+          <img
+            src="/images/purchase/purchaseTab.png"
             alt=""
             className="lazy-img main-img ms-auto img6"
             style={{ position: "absolute", left: "-350px", top: "-290%", width: "1000px"}}
-            width={1000}
-            height={650}
+            // width={1000}
+            // height={650}
           />
         </div>
 

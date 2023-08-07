@@ -97,7 +97,7 @@ const AppBanner2 = () => {
             </div>
 
             <div className="col-lg-4 col-md-12 col-sm-12">
-                <Image src="/images/purchase/image_4.png" alt="" className="lazy-img main-img ms-auto sec" width={1000} height={800} style={{}} />
+                <img src="/images/purchase/mobDashboard.png" alt="" className="lazy-img main-img ms-auto sec"  style={{}} />
             </div>
 
 

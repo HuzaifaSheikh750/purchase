@@ -72,7 +72,7 @@ const Hero = () => {
                     </div>
                   </div>
                   <a
-                    href="https://appsource.microsoft.com/en-us/product/dynamics-365/kaispellc.kspfiapp?tab=Overview"
+                    href="https://appsource.microsoft.com/en-us/marketplace/apps?search=kaispe%20purchase%20requisition&page=1"
                     target="_blank"
                     style={{ marginTop: "-20px", marginRight: "20px" }}
                   >
@@ -98,7 +98,7 @@ const Hero = () => {
             <Image
               src="/images/purchase/purchaseMobile.png"
               alt="illustration"
-              className="lazy-img main-illustration"
+              className="lazy-img "
                 width={650}
                 height={700}
               style={{marginLeft:"140px", marginTop:"70px"}}

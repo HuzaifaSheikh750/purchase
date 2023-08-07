@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { useState } from "react";
-import Image from 'next/image'
+// import Image from 'next/image'
 const Hero = () => {
 
 
@@ -42,12 +42,12 @@ const Hero = () => {
                 </div>
               </div> */}
               <div className="bg-wrapper" style={{backgroundColor:"white", marginTop:"-7  0px"}}>
-              <Image
-                src="/images/purchase/image_2.png"
+              <img
+                src="/images/purchase/mobileTab.png"
                 alt="media"
-                className="lazy-img main-screen w-100 dashboardscreen"
-                width={1000}
-                height={650}
+                className="lazy-img main-screen w-100 "
+                // width={1000}
+                // height={650}
               />
             </div>
             </div>

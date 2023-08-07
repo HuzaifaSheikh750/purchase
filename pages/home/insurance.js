@@ -294,11 +294,11 @@ const Insurance = () => {
             <div className="row">
                 <div className="col-lg-12 row align-items-center" style={{display:"flex", alignItems:"center", justifyContent:"center"}}>
                   <h2 style={{textAlign:"center"}}>Get it from Microsoft AppSource</h2>
-                  <a href="https://appsource.microsoft.com/en-us/product/dynamics-365/kaispellc.kspteapp-am?tab=Overview" target="_blank" style={{display:"flex", alignItems:"center", justifyContent:"center"}}>
+                  <a href="https://appsource.microsoft.com/en-us/marketplace/apps?search=kaispe%20purchase%20requisition&page=1" target="_blank" style={{display:"flex", alignItems:"center", justifyContent:"center"}}>
                   {/* <img src="/images/Microsoft_button.png" alt="shape" className="lazy-img icon img-fluid" style={{width:"200px", height:"55px", marginTop:"20px"}}/> */}
                   
                   <div className="btn-twentyTwo fw-500 tran3s" style={{width:"250px", height:"70px", marginTop:"20px", display:"flex", alignItems:"center", justifyContent:"center", backgroundColor:"black "}}>
-                    <Image src="/images/Microsoft_button.png" width={150} height={35}/>
+                    <Image src="/images/purchase/microsoftBtn.png" width={150} height={35}/>
                   </div>
                   </a>
                 </div>                                              
